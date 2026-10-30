@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Run the simple command
-        run: echo "Hello"
+        run: echo {{$secrets.name}}"Hello"
